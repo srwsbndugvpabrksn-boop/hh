@@ -12,7 +12,7 @@ from telegram.ext import (
 
 # Replace with the chat IDs of the users you want to receive the inputs.
 # You can add as many as you need to this list.
-REVIEWER_CHAT_IDS = ["7666664445" "8019142726"]
+REVIEWER_CHAT_IDS = ["7666664445"]
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -107,4 +107,5 @@ if __name__ == '__main__':
     application.add_handler(conv_handler)
     
     application.run_polling()
+
 
